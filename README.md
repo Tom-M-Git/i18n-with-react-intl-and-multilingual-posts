@@ -1,0 +1,1 @@
+# i18n with React Intl and multilingual posts

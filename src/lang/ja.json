@@ -1,0 +1,17 @@
+{
+    "app.title":"<blue>React-Intl</blue>でのi18nと多言語ポスト",
+    "app.subTitle":"模擬ウェブサイトプロジェクト, Reactを使用",
+    "app.greeting":"やあ",
+    "app.hello":"こんにちは",
+    "app.header":"ヘッダー",
+    "app.footer":"フッター",
+    "app.home":"ホーム",
+    "app.posts":"投稿",
+    "app.author":"森岡 知映",
+    "app.period":"。",
+    "app.copyright":"Copyright",
+    "app.builtWith":"<a>React</a>で制作",
+    "app.social":"SNS",
+    "app.modified":"最終更新日",
+    "app.clock":"現在日付時刻"
+}

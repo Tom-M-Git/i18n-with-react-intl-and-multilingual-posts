@@ -1,0 +1,17 @@
+{
+    "app.title":"i18n with <blue>React Intl</blue> and multilingual posts",
+    "app.subTitle":"A mock website project built with React",
+    "app.greeting":"Hi",
+    "app.hello":"Hello",
+    "app.header":"Header",
+    "app.footer":"Footer",
+    "app.home":"Home",
+    "app.posts":"Posts",
+    "app.author":"Tomoaki Morioka",
+    "app.period":". ",
+    "app.copyright":"Copyright",
+    "app.builtWith":"Built with <a>React</a>",
+    "app.social":"Social Media",
+    "app.modified":"Last modified",
+    "app.clock":"Current date and time"
+}

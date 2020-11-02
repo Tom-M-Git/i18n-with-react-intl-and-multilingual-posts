@@ -1,0 +1,95 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+ul{
+    list-style-position: inside;
+}
+button {
+    box-sizing: content-box;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: 0 0 2px 2px #61dafb;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+button:hover{
+    cursor: pointer;
+}
+#site-subtitle {
+    color: #ececec;
+    font-size: 1.1rem;
+}
+#site-title, #site-subtitle {
+    text-align: center;
+}
+#site-header > nav {
+    display: flex;
+    margin-top: 1rem;
+}
+#site-header > nav a:first-of-type {
+    margin-left: 1rem;
+}
+#site-header > nav a:last-of-type {
+    margin-right: 1rem;
+}
+#site-header > nav button {
+    padding: 0 0.5rem;
+}
+.language-btn-a {
+    margin-right: 0.5rem;
+}
+#post-button-a {
+    margin-left: auto;
+}
+.highlight {
+    color: rgb(250,90,0);
+}
+#site-header {
+    padding: 1rem 0;
+    color: #ffffff;
+    background-color: #20232a;
+}
+#site-footer {
+    min-height: 150px;
+    padding: 2rem 0;
+    background-color: #20232a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hr-alt {
+    width: 90%;
+    border-bottom: 1px solid #777777;
+    margin: 1rem 0;
+}
+#site-footer a, #site-footer a:visited {
+    color: inherit;
+}
+main {
+    width: 90%;
+    margin: 3rem auto;
+}
+main > article > h2 {
+    margin-top: 2rem;
+}
+main > section {
+    margin-top: 2rem;
+}
+main > section > section {
+    margin-top: 2rem;
+}
+main > section > section:first-child {
+    margin-top: 0;
+}
+#clock {
+    margin-top: 1px;
+    padding: 0.5rem 0;
+    background-color: #20232a;
+    color: #61dafb;
+    font-size: 0.9rem;
+    text-align: center;
+}
