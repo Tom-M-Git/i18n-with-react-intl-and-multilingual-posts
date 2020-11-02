@@ -26,9 +26,9 @@ function Home (props) {
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>React.js</li>
-                <li>React Intl (Format.JS)</li>
-                <li>React Router</li>
+                <li><a href="https://reactjs.org/" target="_blank" rel="noreferrer">React.js</a></li>
+                <li><a href="https://formatjs.io/" target="_blank" rel="noreferrer">React Intl (Format.JS)</a></li>
+                <li><a href="https://reactrouter.com/" target="_blank" rel="noreferrer">React Router</a></li>
             </ul>
             <p>
                 For translating each single word or phrase, I used <span className="highlight">react-intl</span> functions. For each long sentence or article, it's separated in each block of code and displayed by language.
