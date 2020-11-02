@@ -71,6 +71,7 @@ button:hover{
 }
 main {
     width: 90%;
+    max-width: 650px;
     margin: 3rem auto;
 }
 main > article > h2 {
@@ -92,4 +93,7 @@ main > section > section:first-child {
     color: #61dafb;
     font-size: 0.9rem;
     text-align: center;
+}
+.warning {
+    color: #840000;
 }

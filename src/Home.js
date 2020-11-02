@@ -39,6 +39,11 @@ function Home (props) {
             <p>Project Started: October 25, 2020</p>
             <br />
             <p>Thank you for visiting.</p>
+            <br />
+            <br />
+            <p className="warning">
+                Reloading this app isn't supported. Leave the url only before "<strong>/en</strong>" or "<strong>/ja</strong>" in the search bar and run a search if needed. Sorry for inconvenience.
+            </p>
         </article>;
     const homeJa =
         <article>
@@ -75,6 +80,11 @@ function Home (props) {
             <p>プロジェクト開始: 2020年10月25日</p>
             <br />
             <p>ご覧いただきありがとうございます。</p>
+            <br />
+            <br />
+            <p className="warning">
+                このアプリではページの更新ができません。必要な場合は｢<strong>/en</strong>｣ または ｢<strong>/ja</strong>｣より前(左)のurlのみを検索バーに残して検索してください。ご不便をお詫び申し上げます。
+            </p>
         </article>;
 
     function HomeByLang(){

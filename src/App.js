@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import {IntlProvider} from 'react-intl';
@@ -24,6 +24,8 @@ let langAttr = document.getElementsByTagName("html")[0].getAttribute("lang");
         language = English;  
     }
 
+let baseUrl = window.location.pathname;
+
 function App (props) {
 
     const [locale, setLocale] = useState(langAttr);
@@ -43,11 +45,23 @@ function App (props) {
         }
           
     }
-    //console.log(messages);
+    useEffect(()=>{
+      let titleEl = document.getElementsByTagName("title")[0];
+      switch (locale){
+        case "en":
+          titleEl.innerHTML = "i18n with React Intl and multilingual posts";
+          break;
+        case "ja":
+          titleEl.innerHTML = "React-Intlでのi18nと多言語ポスト";
+          break;
+        default:
+          titleEl.innerHTML = "i18n with React Intl and multilingual posts";
+      }
+    });
 
     return(
             <IntlProvider locale={locale} key={locale} messages={messages}>
-              <Router>
+              <Router basename={baseUrl}>
                 <Header selectingLang={selectLang} locale={locale}/>
                 <Clock />
                 <Switch>

@@ -9,7 +9,7 @@ function Footer (props) {
             <p>
                 <FormattedMessage id="app.modified" defaultMessage="Last modified" />
                 :&nbsp;
-                <FormattedDate value={ new Date("2020-11-01T18:00:00Z") } year="numeric" month="long" day="2-digit" />
+                <FormattedDate value={ new Date("2020-11-02T15:00:00Z") } year="numeric" month="long" day="2-digit" />
             </p>
             <br />
             <p>
